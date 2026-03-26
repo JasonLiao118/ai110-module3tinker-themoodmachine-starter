@@ -23,6 +23,24 @@ POSITIVE_WORDS = [
     "chill",
     "relaxed",
     "amazing",
+    "sick",
+    "fire",
+    "lit",
+    "goated",
+    "bussin",
+    # positive emojis
+    "😊",
+    "😄",
+    "😂",
+    "🥰",
+    "😍",
+    "🤩",
+    "🙌",
+    "❤",
+    "🔥",
+    "✨",
+    ":)",
+    ":D",
 ]
 
 NEGATIVE_WORDS = [
@@ -36,6 +54,16 @@ NEGATIVE_WORDS = [
     "stressed",
     "hate",
     "boring",
+    # negative emojis
+    "😢",
+    "😭",
+    "😡",
+    "🤬",
+    "😞",
+    "😔",
+    "🤮",
+    ":(",
+    ":/",
 ]
 
 # ---------------------------------------------------------------------
@@ -50,6 +78,15 @@ SAMPLE_POSTS = [
     "This is fine",
     "So excited for the weekend",
     "I am not happy about this",
+    #Started adding here
+    "This is fantastic",
+    "Ew what is that",
+    "That is disgusting",
+    "I am alright",
+    "Ouch that hurt",
+    "I ❤️ long codepath sessions so much",
+    "The code was sick",
+
 ]
 
 # Human labels for each post above.
@@ -65,6 +102,15 @@ TRUE_LABELS = [
     "neutral",   # "This is fine"
     "positive",  # "So excited for the weekend"
     "negative",  # "I am not happy about this"
+    "positive",
+    "negative",
+    "negative",
+    "neutral",
+    "negative",
+    "positive",
+    "positive",
+
+
 ]
 
 # TODO: Add 5-10 more posts and labels.

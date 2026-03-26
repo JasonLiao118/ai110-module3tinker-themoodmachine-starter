@@ -21,8 +21,6 @@ Example: classify short text messages as moods like positive, negative, neutral,
 For the rule based version, describe the scoring rules you created.  
 For the ML version, describe how training works at a high level (no math needed).
 
-
-
 ## 2. Data
 
 **Dataset description:**  
@@ -33,11 +31,11 @@ Explain how you chose labels for your new examples.
 Mention any posts that were hard to label or could have multiple valid labels.
 
 **Important characteristics of your dataset:**  
-Examples you might include:  
+Examples you might include:
 
-- Contains slang or emojis  
-- Includes sarcasm  
-- Some posts express mixed feelings  
+- Contains slang or emojis
+- Includes sarcasm
+- Some posts express mixed feelings
 - Contains short or ambiguous messages
 
 **Possible issues with the dataset:**  
@@ -47,12 +45,12 @@ Think about imbalance, ambiguity, or missing kinds of language.
 
 **Your scoring rules:**  
 Describe the modeling choices you made.  
-Examples:  
+Examples:
 
-- How positive and negative words affect score  
-- Negation rules you added  
-- Weighted words  
-- Emoji handling  
+- How positive and negative words affect score
+- Negation rules you added
+- Weighted words
+- Emoji handling
 - Threshold decisions for labels
 
 **Strengths of this approach:**  
@@ -94,30 +92,30 @@ If you used both models, show how their failures differed.
 ## 6. Limitations
 
 Describe the most important limitations.  
-Examples:  
+Examples:
 
-- The dataset is small  
-- The model does not generalize to longer posts  
-- It cannot detect sarcasm reliably  
+- The dataset is small
+- The model does not generalize to longer posts
+- It cannot detect sarcasm reliably
 - It depends heavily on the words you chose or labeled
 
 ## 7. Ethical Considerations
 
 Discuss any potential impacts of using mood detection in real applications.  
-Examples: 
+Examples:
 
-- Misclassifying a message expressing distress  
-- Misinterpreting mood for certain language communities  
+- Misclassifying a message expressing distress
+- Misinterpreting mood for certain language communities
 - Privacy considerations if analyzing personal messages
 
 ## 8. Ideas for Improvement
 
 List ways to improve either model.  
-Possible directions:  
+Possible directions:
 
-- Add more labeled data  
-- Use TF IDF instead of CountVectorizer  
-- Add better preprocessing for emojis or slang  
-- Use a small neural network or transformer model  
-- Improve the rule based scoring method  
+- Add more labeled data
+- Use TF IDF instead of CountVectorizer
+- Add better preprocessing for emojis or slang
+- Use a small neural network or transformer model
+- Improve the rule based scoring method
 - Add a real test set instead of training accuracy only
